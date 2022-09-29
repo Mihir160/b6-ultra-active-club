@@ -1,8 +1,14 @@
 import React, { useState } from 'react';
-import './Information.css'
-import logo from './profilepic.jpg'
+
+import './Information.css';
+
+import logo from './profilepic.jpg';
+import Toast from './Toast';
+
+
+
 const Information = (props) => {
-    console.log(props)
+    // console.log(props)
     const [BreakTime, setbreakTime] = useState(0)
     let totalTime = 0
     for(const duration of props.timecalculte){
@@ -17,6 +23,11 @@ const Information = (props) => {
 
 
     let breakTimecount = localStorage.getItem('breakTime')
+    if(!breakTimecount){
+        breakTimecount = 0
+    }
+
+   
     return (
         <div className='detail'>
             <div className='info'>
@@ -48,10 +59,7 @@ const Information = (props) => {
               <p className="break-time">Break time: <small className='time'> {breakTimecount} </small> seconds</p>
               </div>
             </div>
-
-               <div>
-                  <button className='activity-complete'>Activity Completed</button>
-               </div>
+              <Toast></Toast>
 
         </div>
     );
