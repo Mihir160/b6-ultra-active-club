@@ -17,7 +17,7 @@
 .activity-name{
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 21px;
     line-height: 25px;
     margin-top: 7px;
@@ -26,20 +26,26 @@
 .activity-info{
     margin: 0 14px;
 }
+
 .activity-info p{
     margin-bottom: 0;
     margin-top: 10px;
+    
 }
 .about{
     font-size: 12px;
 }
 .btn-activity{
-    background-color: rgb(194, 224, 249);
-    margin-top: 8px;
-    border-radius: 10px;
-    padding: 5px;
-    border-color: rgb(194, 224, 249);
-    width: 50%;
+    padding: 10px;
+    width: 100%;
+    background-color: #9ae5e5;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-activity:hover{
     background-color: rgb(106, 106, 231);

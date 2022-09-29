@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 
 import './Activities.css'
+import Information from '../Information/Information';
 
 const Activites = () => {
 
@@ -35,8 +36,8 @@ const Activites = () => {
 
                 </div>
                </div>
-                <div>
-                    
+                <div className='information'>
+                    <Information></Information>
                 </div>
         </div>
     );

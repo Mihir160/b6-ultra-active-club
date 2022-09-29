@@ -8,6 +8,7 @@
     gap: 45px;
     margin: 10px 50px;
 }
+
 .activities-header{
 
     background-color: rgb(231, 243, 243);
@@ -21,4 +22,8 @@
 .activitie-select{
     margin-top: 10px;
     margin-left: 50px;   
+}
+.information{
+    background-color: rgb(200, 243, 228);
+   
 }

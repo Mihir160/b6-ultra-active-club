@@ -1,0 +1,31 @@
+
+.detail{
+    margin: 30px;
+    position: sticky;
+    top: 0;
+    
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info-img{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+.perosnal-info{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.perosnal-info small{
+    font-weight: 400;
+}
+.hight-weight{
+    display: flex;
+    background-color: rgb(148, 240, 211);
+    gap: 10px;
+    border-radius: 15px;
+}
+
