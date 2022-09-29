@@ -11,7 +11,7 @@ const Activites = () => {
 
     const [activities, setActivity] = useState([])
     const [timecalculte, setCalculate] = useState([])
-    
+    // data fetch
     useEffect(()=>{
           fetch('activity.json')
           .then(res => res.json())
@@ -35,11 +35,13 @@ const addtoTime = (props) =>{
                  <div className='activitie-select' >
                     <h5>Select today’s exercise</h5>
                  </div>
+                 {/* activity */}
                     <div className='activities'>
                     {
                         activities.map(activity => <Activity activity={activity} key={activity.id} addtoTime={addtoTime}></Activity>)
                     }
                     </div>
+                    {/* question answer */}
                     <div className=''>
                         <Question></Question>
                     </div>

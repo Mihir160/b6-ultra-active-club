@@ -13,7 +13,6 @@ const Activity = (props) => {
             <p>Time required : {time} s</p>
             </div>
             <button  onClick={()=> props.addtoTime(time)} className='btn-activity'>Add to list</button>
-          
         </div>
     );
 };
