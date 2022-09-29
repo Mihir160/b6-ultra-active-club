@@ -44,3 +44,14 @@
 .btn-break:hover{
     background-color: rgb(106, 106, 231);
 }
+
+.excricse-time{
+    background-color: rgb(148, 240, 211); 
+    border-radius: 15px;
+    padding: 10px; 
+}
+.break-time{
+    background-color: rgb(148, 240, 211); 
+    border-radius: 15px;
+    padding: 10px; 
+}

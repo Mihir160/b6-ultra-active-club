@@ -24,7 +24,15 @@ const Information = () => {
                 <button className='btn-break'>60 <small>s</small></button>
             </div>
             </div>
-           
+            <div>
+            <p className='perosnal-info'>Exercise Details</p>
+              <div>
+                <p className="excricse-time">Exercise time <small>seconds</small></p>
+              </div>
+              <div>
+              <p className="break-time">Break time <small>seconds</small></p>
+              </div>
+            </div>
         </div>
     );
 };
