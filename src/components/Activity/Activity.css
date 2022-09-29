@@ -34,6 +34,14 @@
     font-size: 12px;
 }
 .btn-activity{
-    
+    background-color: rgb(194, 224, 249);
     margin-top: 8px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(194, 224, 249);
+    width: 50%;
+}
+.btn-activity:hover{
+    background-color: rgb(106, 106, 231);
+    color: white;
 }

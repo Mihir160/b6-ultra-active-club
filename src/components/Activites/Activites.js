@@ -30,6 +30,10 @@ const Activites = () => {
                     activities.map(activity => <Activity activity={activity} key={activity.id}></Activity>)
                  }
                 </div>
+
+                <div className='question'>
+
+                </div>
                </div>
                 <div>
                     

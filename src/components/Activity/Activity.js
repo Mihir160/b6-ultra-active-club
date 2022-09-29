@@ -9,11 +9,11 @@ const Activity = (props) => {
             <div className='activity-info'>
             <p className='activity-name'>{name}</p>
             <p className='about'> {about}</p>
-            <p>For Age :{age}</p>
+            <p>For Age : {age}</p>
             <p>Time required : {time}s</p>
-            <div  className='btn-activity'>
-            <button>Add to list</button>
-            </div>
+         
+            <button  className='btn-activity'>Add to list</button>
+           
             </div>
           
         </div>
