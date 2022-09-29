@@ -1,0 +1,50 @@
+[
+    {
+      "id": "6334e021950b5db2ec12b251",
+      "picture": "public/pic/pic1.jpg",
+      "age": 31,
+      "name": " Deadlift",
+      "time": 33,
+      "about": "The bread and butter of countless gym routines, this move, if done properly, will predominantly engage your back and legs, while building overall strength for you entire body. If you want to master the deadlift, check out this article.\r\n"
+    },
+    {
+      "id": "6334e0216ec55776e0c6782b",
+      "picture": "public/pic/pic2.jpg",
+      "age": 24,
+      "name": "T-Bar Row",
+      "time": 29,
+      "about": "As the favorite back exercise of Arnold Schwarzenegger himself, the T-bar row transcends all mere mortal workouts simply because of the Austrian Oaks blessing. Heres how to do it.\r\n"
+    },
+    {
+      "id": "6334e02123177dca5a610b01",
+      "picture": "public/pic/pic3.jpg",
+      "age": 21,
+      "name": "The Bird-Dog",
+      "time": 28,
+      "about": "Sure, you may look a little funny doing it, but this variation on the plank challenges you to keep your back flat and stable. It goes to show that not all essential exercises are about clanging plates and bending bars.\r\n"
+    },
+    {
+      "id": "6334e0211ffbe4d9bcdb235c",
+      "picture": "public/pic/pic4.jpg",
+      "age": 37,
+      "name": "Lat Pulldown",
+      "time": 31,
+      "about": "This variation on the traditional pulldown not only strengthens your middle and upper back, it also works your shoulders, biceps, and forearms.\r\n"
+    },
+    {
+      "id": "6334e021429db9c989f63cbc",
+      "picture": "public/pic/pic5.jpg",
+      "age": 20,
+      "name": "Pullups",
+      "time": 34,
+      "about": "The pullup is a classic strength-building move that everyone needs to do in the gym. But whatever you do, don’t lose your form in favor of reps. Keep those legs straight for maximum payoff.\r\n"
+    },
+    {
+      "id": "6334e021776da0f1978cd126",
+      "picture": "public/pic/pic6.jpg",
+      "age": 34,
+      "name": "Trap Bar Carry",
+      "time": 38,
+      "about": "The trap bar carry, while similar to the farmer’s walk, allows you to carry a whole lot more weight. Besides the gear, the workouts are essentially the same: Load your trap bar with a heavy weight, stand inside, lift it up, and start walking.\r\n"
+    }
+  ]
