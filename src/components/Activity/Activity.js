@@ -1,7 +1,7 @@
 import React from 'react';
 import './Activity.css'
 const Activity = (props) => {
-  const {name, about, age, time, picture} = props.activity
+  const {name, about, age, time, picture } = props.activity
     // console.log(props)
     return (
         <div className='activity'>
@@ -10,9 +10,9 @@ const Activity = (props) => {
             <p className='activity-name'>{name}</p>
             <p className='about'> {about}</p>
             <p>For Age : {age}</p>
-            <p>Time required : {time}s</p>
+            <p>Time required : {time} s</p>
             </div>
-            <button  className='btn-activity'>Add to list</button>
+            <button  onClick={()=> props.addtoTime(time)} className='btn-activity'>Add to list</button>
           
         </div>
     );

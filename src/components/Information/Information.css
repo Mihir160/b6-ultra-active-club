@@ -50,6 +50,9 @@
     border-radius: 15px;
     padding: 10px; 
 }
+.time{
+    padding: 10px;
+}
 .break-time{
     background-color: rgb(148, 240, 211); 
     border-radius: 15px;

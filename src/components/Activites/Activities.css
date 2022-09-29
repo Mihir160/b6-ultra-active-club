@@ -27,3 +27,19 @@
     background-color: rgb(200, 243, 228);
    
 }
+
+@media screen and (max-width:768px) {
+    .activities-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .activities{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 45px;
+        margin: 10px 50px;
+    }
+}
+

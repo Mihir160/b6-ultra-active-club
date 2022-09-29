@@ -5,15 +5,24 @@ import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 
 import './Activities.css'
 import Information from '../Information/Information';
+import Question from '../Question/Question';
 
 const Activites = () => {
 
     const [activities, setActivity] = useState([])
+    const [timecalculte, setCalculate] = useState([])
+    
     useEffect(()=>{
           fetch('activity.json')
           .then(res => res.json())
           .then(data => setActivity(data))
     },[])
+
+const addtoTime = (props) =>{
+    const newTime = [...timecalculte, props]
+    setCalculate(newTime)
+
+}
 
     return (
         <div className='activities-container'>
@@ -26,19 +35,21 @@ const Activites = () => {
                  <div className='activitie-select' >
                     <h5>Select today’s exercise</h5>
                  </div>
-                <div className='activities'>
-                {
-                    activities.map(activity => <Activity activity={activity} key={activity.id}></Activity>)
-                 }
-                </div>
-
-                <div className='question'>
-
-                </div>
+                    <div className='activities'>
+                    {
+                        activities.map(activity => <Activity activity={activity} key={activity.id} addtoTime={addtoTime}></Activity>)
+                    }
+                    </div>
+                    <div className=''>
+                        <Question></Question>
+                    </div>
+                   
                </div>
                 <div className='information'>
-                    <Information></Information>
+                    <Information timecalculte={timecalculte}></Information>
                 </div>
+               
+              
         </div>
     );
 };
