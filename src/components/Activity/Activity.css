@@ -1,0 +1,39 @@
+.activity{
+    width: 300px;
+    height: 450px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+    background-color: rgba(238, 233, 226, 0.568);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.activity img{
+    width: 286px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.activity-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.activity-info{
+    margin: 0 14px;
+}
+.activity-info p{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.about{
+    font-size: 12px;
+}
+.btn-activity{
+    
+    margin-top: 8px;
+}
