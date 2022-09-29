@@ -33,6 +33,11 @@ const Information = () => {
               <p className="break-time">Break time <small>seconds</small></p>
               </div>
             </div>
+
+               <div>
+                  <button className='activity-complete'>Activity Completed</button>
+               </div>
+
         </div>
     );
 };

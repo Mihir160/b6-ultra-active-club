@@ -55,3 +55,14 @@
     border-radius: 15px;
     padding: 10px; 
 }
+
+.activity-complete{
+    background-color: #9ae5e5;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+ 
+}
+.activity-complete:hover{
+    background-color: rgb(106, 106, 231);
+}
