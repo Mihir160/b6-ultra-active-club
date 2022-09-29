@@ -13,7 +13,18 @@ const Information = () => {
               <p className='perosnal-info'>6.5 <br /> <small>Height</small> </p> 
               <p className='perosnal-info'>25yrs <br /> <small>Age</small> </p> 
             </div>
-            
+            <div>
+            <p className='perosnal-info'>Add A Break </p> 
+            <div className='break-time'>
+                <button className='btn-break'>20 <small>s</small></button>
+                <button className='btn-break'>10 <small>s</small></button>
+                <button className='btn-break'>30 <small>s</small></button>
+                <button className='btn-break'>40 <small>s</small></button>
+                <button className='btn-break'>50 <small>s</small></button>
+                <button className='btn-break'>60 <small>s</small></button>
+            </div>
+            </div>
+           
         </div>
     );
 };

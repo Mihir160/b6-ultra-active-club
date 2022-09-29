@@ -29,3 +29,18 @@
     border-radius: 15px;
 }
 
+.break-time{
+    background-color: rgb(148, 240, 211); 
+    border-radius: 15px;
+    padding: 10px;
+}
+.btn-break{
+    margin: 3px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+
+}
+.btn-break:hover{
+    background-color: rgb(106, 106, 231);
+}
