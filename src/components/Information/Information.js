@@ -3,16 +3,16 @@ import './Information.css'
 import logo from './profilepic.jpg'
 const Information = (props) => {
     console.log(props)
-    const [BreakTime, setbreakTime] = useState([])
+    const [BreakTime, setbreakTime] = useState(0)
     let totalTime = 0
     for(const duration of props.timecalculte){
         totalTime = totalTime + duration
         console.log(totalTime)
     }
    
-    const breakTime = (props) =>{
-        setbreakTime(props)
-        localStorage.setItem('breakTime', props)
+    const breakTime = (BreakTime) =>{
+        setbreakTime(BreakTime)
+        localStorage.setItem('breakTime', BreakTime)
     }
 
 
